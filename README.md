@@ -33,7 +33,7 @@ My final test was a combination of oversampling and undersampling known as **SMO
 The final set of analyses used **forests** to improved accuracy. First, I downloaded *BalancedRandomForestClassifier*. This breaks down the data into "forests" where loan criteria are branched into smaller and smaller formulae in order to predict and classify. Perhaps this would be the method that would give ma a high degree of accuracy for predicting high-risk loans and eliminating them from future loan portfolios.
 ![randomForest](https://github.com/JDittes/Credit_Risk_Analysis/blob/main/images/brfclassifier.png)
 
-Finally, I used adaptive boosting, a.k.a "AdaBoost" to train a model using the training data. This boost gives extra weight to errors from previous models of testing, repeating the error-rate until the errors are minimized. The directory I downloaded from sklearn for this step was *EasyEnsembleClassifier*. Unfortunately, the results held the 0.01 rate of precision that I found in previous tests, and the other reports were similar
+Finally, I used **adaptive boosting, a.k.a "AdaBoost"** to train a model using the training data. This boost gives extra weight to errors from previous models of testing, repeating the error-rate until the errors are minimized. The directory I downloaded from sklearn for this step was *EasyEnsembleClassifier*. Unfortunately, the results held the 0.01 rate of precision that I found in previous tests, and the other reports were similar
 ![ada boost](https://github.com/JDittes/Credit_Risk_Analysis/blob/main/images/AdaBoost.png)
 
 ## Results: 
